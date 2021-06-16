@@ -1,7 +1,11 @@
 {
   "name": "root",
   "private": true,
+  "scripts": {
+    "release:patch": "npx lerna version patch --conventional-commits"
+  },
   "devDependencies": {
+    "conventional-changelog": "^3.1.24",
     "lerna": "^4.0.0"
   }
 }
